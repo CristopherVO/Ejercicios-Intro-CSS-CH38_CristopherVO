@@ -22,3 +22,38 @@ background: #000000;
 Todos los elementos <span> contenidos en la clase "normal" 
 font-weight: bold;
 */ 
+body{
+
+    color: #555;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+   color:#C30;
+}
+
+p.Primero{
+    color:#369;
+
+    em.Sub1{
+        color: #0000BB;
+        background-color: #FFFFCC;
+    }
+    
+}
+
+em.especial{
+    color: #FFFF00;
+    background-color: #000000;
+}
+
+
+/* Aqui no encontre como poner para que se utilizara la clase normal
+, solo me funciono agregando clase otro a cada span...
+otra forma donde me funciono fue solo poner todo span sin clase 
+especifica..*/
+span{
+   font-weight: bold;
+}
+
